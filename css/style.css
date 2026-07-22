@@ -617,6 +617,51 @@ body.gate-active {
   text-shadow: 0 6px 30px rgba(201, 56, 92, 0.25);
 }
 
+.hero-love-tag {
+  margin: 18px 0 10px;
+  opacity: 0;
+  animation: fadeUp 1.2s ease 1.5s forwards;
+}
+
+.hero-love-badge {
+  font-family: var(--font-serif);
+  font-size: clamp(13px, 1.9vw, 16px);
+  font-style: italic;
+  letter-spacing: 0.12em;
+  color: var(--gold-dark);
+  background: rgba(212, 160, 23, 0.12);
+  padding: 6px 20px;
+  border-radius: 20px;
+  border: 1px solid rgba(212, 160, 23, 0.35);
+  display: inline-block;
+}
+
+.gate-love-tag {
+  display: block;
+  font-family: var(--font-serif);
+  font-size: clamp(12px, 1.8vw, 15px);
+  font-style: italic;
+  color: rgba(248, 244, 237, 0.85);
+  margin-top: 6px;
+  letter-spacing: 0.15em;
+}
+
+.love-story-banner {
+  text-align: center;
+  max-width: 620px;
+  margin: 0 auto 32px;
+  padding: 0 16px;
+}
+
+.love-story-text {
+  font-family: var(--font-serif);
+  font-size: clamp(15px, 2.2vw, 19px);
+  font-style: italic;
+  color: var(--text-dark);
+  line-height: 1.7;
+  letter-spacing: 0.02em;
+}
+
 .hero-date {
   margin-top: 32px;
   opacity: 0;

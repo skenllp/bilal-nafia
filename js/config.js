@@ -132,7 +132,7 @@ window.WEDDING_CONFIG = {
       },
       {
         role:   'Sister family',
-        names:  ['Bahaboodiya Kottarathil', 'Sathar Dautrr', 'Fathima Kottarathil'],
+        names:  ['Sathar & Bahaboodiya Kottarathil', 'Daughter - Fathima Kottarathil'],
       },
     ],
   },
