@@ -2059,6 +2059,13 @@ footer {
   margin-top: 16px;
 }
 
+.regards-grid--single {
+  grid-template-columns: 1fr;
+  max-width: 320px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .regards-col {
   padding: 0 28px 40px;
   display: flex;
@@ -2111,4 +2118,19 @@ footer {
   background: rgba(212, 160, 23, 0.18);
   color: var(--gold-light);
   border-color: var(--gold);
+}
+
+/* Regards names block — single elegant list */
+.regards-names-block {
+  margin-top: 16px;
+  text-align: center;
+}
+
+.regards-names-list {
+  font-family: var(--font-serif);
+  font-size: clamp(16px, 2.4vw, 20px);
+  font-weight: 500;
+  color: var(--text-dark);
+  line-height: 2;
+  letter-spacing: 0.03em;
 }
