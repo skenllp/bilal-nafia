@@ -127,16 +127,12 @@ window.WEDDING_CONFIG = {
     heading: 'THANKS & LOVING',
     columns: [
       {
-        role:   'ELDER BROTHER (LATE)',
-        names:  ['Bahabood', 'Kottarathil'],
+        role:   'Elder Brother',
+        names:  ['(Late) Bahabood Kottarathil'],
       },
       {
-        role:   'ONE & ONLY SISTER',
-        names:  ['Bahaboodiya', 'Kottarathil'],
-      },
-      {
-        role:   'SISTER HUSBAND',
-        names:  ['Sathar Dautrr', 'Fathima Kottarathil'],
+        role:   'Sister family',
+        names:  ['Bahaboodiya Kottarathil', 'Sathar Dautrr', 'Fathima Kottarathil'],
       },
     ],
   },
